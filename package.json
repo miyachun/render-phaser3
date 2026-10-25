@@ -1,0 +1,20 @@
+{
+  "name": "MemoryMatch-youtube-playables",
+  "description": "Phaser creating YouTube Playables.",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite/config.dev.mjs",
+    "build": "vite build --config vite/config.prod.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "phaser": "^3.86.0",
+    "terser": "^5.34.1",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  }
+}
