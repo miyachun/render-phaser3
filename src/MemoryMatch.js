@@ -65,7 +65,7 @@ export class MemoryMatch extends Phaser.Scene {
       color: '#ffffff'
     }).setOrigin(1, 0);
 
-    this.add.text(w / 2, h - 30, '滑動手指或滑鼠切水果！', {
+    this.add.text(w / 2, h - 30, '滑動手指或滑鼠切食物！', {
       fontSize: '17px',
       color: '#b8d7dc'
     }).setOrigin(0.5);
@@ -243,14 +243,13 @@ spawnFruit() {
         'coke'
       ]);
 
-  const size = Math.min(160, width * 0.12);
+  const size = Math.min(220, width * 0.16);
 
   const x = Phaser.Math.Between(
     Math.floor(width * 0.2),
     Math.floor(width * 0.8)
   );
 
-  // 從畫面底部內側開始
   const y = height - size * 0.4;
 
   this.fruit3D.spawn(
